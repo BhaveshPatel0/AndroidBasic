@@ -15,4 +15,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "TournamentAct"
 include(":app")
+include(":app")
+include(":app")
  

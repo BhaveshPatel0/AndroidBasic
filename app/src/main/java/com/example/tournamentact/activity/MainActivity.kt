@@ -29,9 +29,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun bindView() {
-        ivAddTournament = findViewById(R.id.ivAddTournament)
-        tvNoCricketTournament = findViewById(R.id.tvNoCricketTournament)
-        rcvTournamentName = findViewById(R.id.rcvTournamentName)
+        ivAddTournament = findViewById(R.id.ivAddTeamMember)
+        tvNoCricketTournament = findViewById(R.id.tvTournamentName)
+        rcvTournamentName = findViewById(R.id.r)
         database = Room.databaseBuilder(
             applicationContext,
             TournamentDataBase::class.java,

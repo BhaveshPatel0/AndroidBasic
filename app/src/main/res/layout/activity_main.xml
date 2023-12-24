@@ -8,32 +8,25 @@
     tools:context=".activity.MainActivity"
     android:background="@color/offWhite">
 
-    <ImageView
-        android:id="@+id/ivAddTournament"
-        android:layout_width="@dimen/_35sdp"
-        android:layout_height="@dimen/_35sdp"
-        android:layout_gravity="right"
-        android:layout_margin="@dimen/_7sdp"
-        android:padding="@dimen/_5sdp"
-        android:src="@drawable/ic_add" />
-
-    <RelativeLayout
+    <EditText
+        android:id="@+id/edtNumber"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:hint="number"
+        android:gravity="center"
+        android:inputType="number"
+        android:layout_margin="@dimen/_20sdp"/>
 
-        <TextView
-            android:id="@+id/tvNoCricketTournament"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:layout_gravity="center"
-            android:text="No Cricket Tournament" />
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:layout_gravity="center"/>
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rcvTournamentName"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvNumber"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
-    </RelativeLayout>
 </LinearLayout>
