@@ -3,6 +3,8 @@ AndriodBasics
 
 For Loop Example And Nullable variable With Return Type :-
 
+
+
  fun patternForLoop(number: Int,star:String?=null): String {
 
         var output = ""
