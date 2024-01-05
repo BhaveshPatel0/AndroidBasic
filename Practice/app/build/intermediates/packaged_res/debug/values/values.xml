@@ -2,8 +2,15 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="add">Add</string>
     <string name="app_name">PracticeApplication</string>
+    <string name="check">Check</string>
+    <string name="english">English</string>
     <string name="loop">Loop</string>
+    <string name="maths">Maths</string>
+    <string name="practice">Practice</string>
+    <string name="science">Science</string>
+    <string name="student_name">Student Name</string>
     <style name="Base.Theme.PracticeApplication" parent="Theme.Material3.DayNight.NoActionBar">
         
         

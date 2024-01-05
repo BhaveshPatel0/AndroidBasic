@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">PracticeApplication</string>
     <string name="loop">Loop</string>
+    <string name="practice">Practice</string>
+    <string name="student_name">Student Name</string>
+    <string name="english">English</string>
+    <string name="maths">Maths</string>
+    <string name="science">Science</string>
+    <string name="check">Check</string>
+    <string name="add">Add</string>
 </resources>

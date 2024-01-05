@@ -3768,7 +3768,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnAdd
 id btnLoop
+id btnPractice
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3843,7 +3845,11 @@ id easeOut
 id east
 id edge
 id edit_query
+id edtEnglish
+id edtMaths
 id edtNumber
+id edtScience
+id edtStudentName
 id elastic
 id embed
 id end
@@ -4017,6 +4023,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id rcvStudentName
 id rectangles
 id reverseSawtooth
 id right
@@ -4147,6 +4154,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvLoop
+id tvStudentName
 id unchecked
 id uniform
 id unlabeled
@@ -4283,7 +4291,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_display_result
 layout activity_main
+layout activity_result
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -4301,6 +4311,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dp_example
+layout item_rcv_name
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -4393,6 +4404,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string add
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -4412,7 +4424,9 @@ string call_notification_screening_text
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
+string check
 string clear_text_end_icon_content_description
+string english
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -4459,6 +4473,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string maths
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name
@@ -4526,6 +4541,8 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string practice
+string science
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
@@ -4533,6 +4550,7 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string student_name
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
