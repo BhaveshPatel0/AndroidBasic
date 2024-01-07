@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.PracticeApplication" >
         <activity
+            android:name="com.example.practiceapplication.result.recyclerview.BoxAct"
+            android:exported="false" />
+        <activity
             android:name="com.example.practiceapplication.result.DisplayResultAct"
             android:exported="false" />
         <activity

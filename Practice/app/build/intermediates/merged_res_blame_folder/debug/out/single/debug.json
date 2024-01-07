@@ -12,10 +12,6 @@
         "source": "C:\\Users\\patel\\.gradle\\daemon\\8.2\\com.example.practiceapplication.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.practiceapplication.app-merged_res-29:/layout_activity_main.xml.flat",
-        "source": "com.example.practiceapplication.app-main-31:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\patel\\.gradle\\daemon\\8.2\\com.example.practiceapplication.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\patel\\.gradle\\daemon\\8.2\\com.example.practiceapplication.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
     },
@@ -34,6 +30,10 @@
     {
         "merged": "C:\\Users\\patel\\.gradle\\daemon\\8.2\\com.example.practiceapplication.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\patel\\.gradle\\daemon\\8.2\\com.example.practiceapplication.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.practiceapplication.app-merged_res-29:/layout_item_rcv_box.xml.flat",
+        "source": "com.example.practiceapplication.app-main-31:/layout/item_rcv_box.xml"
     },
     {
         "merged": "C:\\Users\\patel\\.gradle\\daemon\\8.2\\com.example.practiceapplication.app-merged_res-29:\\drawable-xhdpi_ic_launcher_background.png.flat",
@@ -76,6 +76,10 @@
         "source": "C:\\Users\\patel\\.gradle\\daemon\\8.2\\com.example.practiceapplication.app-pngs-25:\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "C:\\Users\\patel\\.gradle\\daemon\\8.2\\com.example.practiceapplication.app-merged_res-29:\\layout_activity_box.xml.flat",
+        "source": "C:\\Users\\patel\\.gradle\\daemon\\8.2\\com.example.practiceapplication.app-main-31:\\layout\\activity_box.xml"
+    },
+    {
         "merged": "C:\\Users\\patel\\.gradle\\daemon\\8.2\\com.example.practiceapplication.app-merged_res-29:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\patel\\.gradle\\daemon\\8.2\\com.example.practiceapplication.app-main-31:\\layout\\activity_main.xml"
     },
@@ -98,6 +102,10 @@
     {
         "merged": "C:\\Users\\patel\\.gradle\\daemon\\8.2\\com.example.practiceapplication.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\patel\\.gradle\\daemon\\8.2\\com.example.practiceapplication.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\patel\\.gradle\\daemon\\8.2\\com.example.practiceapplication.app-merged_res-29:\\layout_item_rcv_box.xml.flat",
+        "source": "C:\\Users\\patel\\.gradle\\daemon\\8.2\\com.example.practiceapplication.app-main-31:\\layout\\item_rcv_box.xml"
     },
     {
         "merged": "C:\\Users\\patel\\.gradle\\daemon\\8.2\\com.example.practiceapplication.app-merged_res-29:\\layout_activity_result.xml.flat",

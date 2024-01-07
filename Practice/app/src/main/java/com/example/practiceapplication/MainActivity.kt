@@ -1,9 +1,11 @@
 package com.example.practiceapplication
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.example.practiceapplication.databinding.ActivityMainBinding
+import com.example.practiceapplication.result.recyclerview.BoxAct
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -37,14 +39,20 @@ class MainActivity : AppCompatActivity() {
         listOfAlphabet.add(" M")
         listOfAlphabet.add(" N")
         listOfAlphabet.add(" O")
-
+//?
+//        5
+//5 5 5 5 5
+//5 5 5 5 5
+//5 5 5 5 5
+//5 5 5 5 5
+//5 5 5 5 5
 
 //        listOfAlphabet.get(alphaCounter)
+        output=output.plus("\n")
+        for (row in 0..5){
 
-        for (row in 0..listOfAlphabet.size){
-
-            for (column in 0..alphaCounter){
-                output=output.plus(listOfAlphabet.get(alphaCounter))
+            for (column in 0..row){
+                output=output.plus("*")
                 alphaCounter++
             }
 
@@ -54,9 +62,9 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        while (listOfAlphabet[alphaCounter]<alphaCounter.toString()){
+//        while (listOfAlphabet[alphaCounter]<alphaCounter.toString()){
 
-        }
+//        }
 
 
 
@@ -71,6 +79,7 @@ class MainActivity : AppCompatActivity() {
     private fun bindClick() {
         binding.btnPractice.setOnClickListener {
 
+            startActivity(Intent(this,BoxAct::class.java))
 
         }
         binding.btnLoop.setOnClickListener {

@@ -1337,6 +1337,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -3769,6 +3770,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnAdd
+id btnBox
 id btnLoop
 id btnPractice
 id buttonPanel
@@ -3806,6 +3808,7 @@ id coordinator
 id cos
 id counterclockwise
 id cradle
+id crdBox
 id currentState
 id custom
 id customPanel
@@ -3845,6 +3848,7 @@ id easeOut
 id east
 id edge
 id edit_query
+id edtBoxSize
 id edtEnglish
 id edtMaths
 id edtNumber
@@ -4023,6 +4027,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id rcvBox
 id rcvStudentName
 id rectangles
 id reverseSawtooth
@@ -4291,6 +4296,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_box
 layout activity_display_result
 layout activity_main
 layout activity_result
@@ -4311,6 +4317,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dp_example
+layout item_rcv_box
 layout item_rcv_name
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
