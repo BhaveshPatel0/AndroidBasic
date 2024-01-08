@@ -9,16 +9,18 @@ import com.example.practiceapplication.R
 import com.example.practiceapplication.databinding.ActivityBoxBinding
 
 class BoxAct : AppCompatActivity() {
-    private lateinit var binding:ActivityBoxBinding
+    private lateinit var binding: ActivityBoxBinding
     private lateinit var mAdapterBox: AdapterBox
 
-    val listOfBOx= arrayListOf<Int>()
+    var selectBox = 0
+    val listOfBOx = arrayListOf<Int>()
+    val listOfSelectedBox = arrayListOf<Int>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding= ActivityBoxBinding.inflate(layoutInflater)
+        binding = ActivityBoxBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        mAdapterBox= AdapterBox(this,listOfBOx)
+        mAdapterBox = AdapterBox(this, listOfBOx)
 
         bindClick()
     }
@@ -26,22 +28,36 @@ class BoxAct : AppCompatActivity() {
     private fun bindClick() {
         binding.btnBox.setOnClickListener {
 
-            val box=binding.edtBoxSize.text.toString().toInt()
+            val box = binding.edtBoxSize.text.toString().toInt()
 
-            for (row in 1..box*box){
-//                for (column in 1..box){
-                    listOfBOx.add(row)
-//                }
+            for (row in 1..box) {
+                for (column in 1..box) {
+
+                    listOfBOx.add(selectBox)
+                    selectBox(box)
+                }
             }
             Log.d("TAG_XYZ", "bidClick: $listOfBOx")
             Log.d("TAG_XYZ", "bidClick: ${listOfBOx.size}")
 
             binding.rcvBox.apply {
 
-                layoutManager=GridLayoutManager(this@BoxAct,box)
-                adapter=mAdapterBox
+                layoutManager = GridLayoutManager(this@BoxAct, box)
+                adapter = mAdapterBox
 
             }
         }
+    }
+
+
+    fun selectBox(box: Int): Int {
+
+        for (row in 1..box) {
+            for (column in 1..row) {
+                selectBox=selectBox+1
+            }
+            selectBox=selectBox+3
+        }
+        return selectBox
     }
 }

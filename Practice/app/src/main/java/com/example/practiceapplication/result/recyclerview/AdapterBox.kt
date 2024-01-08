@@ -10,6 +10,7 @@ import com.example.practiceapplication.R
 
 class AdapterBox(val reqContext:Context,val listOfBOx:ArrayList<Int>):RecyclerView.Adapter<AdapterBox.HolderBox>() {
 
+    val listOfSelectBox= arrayListOf<Int>()
     class HolderBox(itemView:View):RecyclerView.ViewHolder(itemView){
         val crdBox:CardView=itemView.findViewById(R.id.crdBox)
     }
@@ -23,6 +24,7 @@ class AdapterBox(val reqContext:Context,val listOfBOx:ArrayList<Int>):RecyclerVi
     }
 
     override fun onBindViewHolder(holder: HolderBox, position: Int) {
+
 
 
     }
