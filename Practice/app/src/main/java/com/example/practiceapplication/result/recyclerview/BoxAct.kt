@@ -12,7 +12,8 @@ class BoxAct : AppCompatActivity() {
     private lateinit var binding: ActivityBoxBinding
     private lateinit var mAdapterBox: AdapterBox
 
-    var selectBox = 0
+    var rowCounter = 0
+    var columnCounter = 0
     val listOfBOx = arrayListOf<Int>()
     val listOfSelectedBox = arrayListOf<Int>()
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,11 +32,16 @@ class BoxAct : AppCompatActivity() {
             val box = binding.edtBoxSize.text.toString().toInt()
 
             for (row in 1..box) {
-                for (column in 1..box) {
+                for (column in 1..row) {
 
-                    listOfBOx.add(selectBox)
-                    selectBox(box)
+                    rowCounter++
+                    listOfBOx.add(rowCounter)
+
                 }
+                rowCounter=rowCounter+box
+                columnCounter=rowCounter
+                columnCounter=listOfBOx.add(rowCounter)
+
             }
             Log.d("TAG_XYZ", "bidClick: $listOfBOx")
             Log.d("TAG_XYZ", "bidClick: ${listOfBOx.size}")
@@ -48,7 +54,6 @@ class BoxAct : AppCompatActivity() {
             }
         }
     }
-
 
     fun selectBox(box: Int): Int {
 
